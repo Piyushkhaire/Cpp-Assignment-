@@ -1,0 +1,19 @@
+include <iostream>
+using namespace std;
+
+int main() {
+  
+  //constant for cost per notebook and pen 
+  int notebook=15;
+  int pens =20;
+  float notebookprice=2.25;
+  float penprice =0.75;
+  
+  //calculate the total cost
+  float totalcost=(notebook*notebookprice)+(pens*penprice);
+  
+  //output the total cost
+  cout<<"the total cost pf the supplier is Rs"<<totalcost<<endl;
+  
+  return 0;
+}
